@@ -1,6 +1,6 @@
 <?php
 
-namespace branchonline\widget;
+namespace branchonline\select2\widget;
 
 use yii\web\AssetBundle;
 
@@ -32,7 +32,7 @@ class Select2Asset extends AssetBundle {
      * @inheritdoc
      */
     public function init() {
-        $this->setSourcePath(__DIR__ . '/../vendor/ivaynberg/select2/');
+        $this->setSourcePath('@vendor/ivaynberg/select2/');
         $this->setupAssets('css', ['select2']);
         $this->setupAssets('js', ['select2']);
         parent::init();
