@@ -1,0 +1,20 @@
+{
+    "name": "branchonline/yii2-select2",
+    "description": "Select2 wrapper for Yii2",
+    "authors": [
+        {
+            "name": "Jap Mul",
+            "email": "jap@branchonline.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "ivaynberg/select2": "dev-master"
+    },
+    "autoload": {
+        "psr-4": { 
+            "branchonline\\select2\\": "" 
+        }
+    }
+}
