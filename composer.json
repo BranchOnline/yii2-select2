@@ -9,8 +9,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.4.0",
-        "ivaynberg/select2": "dev-master"
+        "php": ">=5.4.0"
     },
     "autoload": {
         "psr-4": { 

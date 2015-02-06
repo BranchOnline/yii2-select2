@@ -32,9 +32,9 @@ class Select2Asset extends AssetBundle {
      * @inheritdoc
      */
     public function init() {
-        $this->setSourcePath('@vendor/ivaynberg/select2/');
+        $this->setSourcePath('@vendor/branchonline/yii2-select2/assets/select2');
         $this->setupAssets('css', ['select2']);
-        $this->setupAssets('js', ['select2']);
+        $this->setupAssets('js', ['select2.min']);
         parent::init();
     }
 
